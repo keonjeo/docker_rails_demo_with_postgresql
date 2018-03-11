@@ -22,3 +22,21 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+### How to use the docker-compose command
+
+    docker-compose build
+    docker_compose up
+
+#### How to list the running container
+
+    docker ps -a
+
+### How to kill the container
+
+    docker rm container_id or container_name
+
+### How to go into the container
+
+    docker exec -it container_name bash
