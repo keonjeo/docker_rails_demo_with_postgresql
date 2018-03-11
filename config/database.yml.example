@@ -21,7 +21,8 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000 
-  username: postgres 
+  username: postgres
+  password:
   # please see the update below about using hostnames to 
   # access linked services via docker-compose
   host: postgres
